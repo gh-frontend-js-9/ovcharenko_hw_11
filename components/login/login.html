@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login.css">
+  <script defer src="../login/api.js"></script>
+  <script defer src="../signup/signup.js"></script>
+</head>
+<body>
+<h2>Login Form</h2>
+<section class="main-wrapper">
+ <div class="imgcontainer">
+    <img src="../../assets/images/sea.jpg" alt="Avatar" class="avatar" width="300px" height="300px">
+  </div>
+<form action="../signup/signup.js" method="post" class="form-wrapper">
+ 
+
+  <div class="container">
+    <div class="log-title">
+    <div><b>Log In</b></div>
+
+    <div><a href="../signup/sign-up.html">Not a member?</a></div>
+    </div>
+    <label for="uname"><b>Email</b></label>
+
+    <input type="email" placeholder="Email" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="../password/password.html">password?</a></span>
+  </div>
+</form>
+</section>
+
+</body>
+</html>
